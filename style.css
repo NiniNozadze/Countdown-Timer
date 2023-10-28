@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #1e1f29;
+    background-image: url("./images/pattern-hills.svg"),url("./images/bg-stars.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom,top;
+    background-size: 100% 25%, auto;
+    padding:0px 24px;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.136px;
+    padding: 142px 0px 54px;
+ }
+.countdown{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.for{
+    width: 70px;
+    height: 71px;
+    background: #343650;
+    border-radius: 12px;
+}
+h2{
+    color: #FB5E84;
+    text-align: center;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.08px;
+}
+.same{
+color: #8385A9;
+text-align: center;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.959px;
+margin-top: 9px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+@media(min-width:1440px){
+    body{
+        padding: 0px 371px;
+    }
+    h1{
+        font-size: 2.2rem;
+        letter-spacing: 7.5px;
+        padding: 132px 0px 104px;
+    }
+    .countdown{
+        gap:37px;
+    }
+    .for{
+        display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+       width: 148px;
+       height: 132.88px;
+    }
+    h2{
+        font-size: 8rem;
+        letter-spacing: -2.4px;
+        margin-bottom: 50px;
+    }
+    .same{
+        font-size: 1.4rem;
+        letter-spacing: 5.919px;
+        margin-bottom: -47px;
+    }
+   
+}
+.fb:hover {
+    cursor: pointer;
+    background-color:#FB5E84;
+}
+.pn:hover{
+    cursor: pointer;
+    background-color:#FB5E84;
+}
+.inst:hover{
+    cursor: pointer;
+    background-color:#FB5E84;
+}
