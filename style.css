@@ -93,17 +93,9 @@ margin-top: 9px;
         letter-spacing: 5.919px;
         margin-bottom: -47px;
     }
-   
+    
 }
-.fb:hover {
+svg:hover path{
     cursor: pointer;
-    background-color:#FB5E84;
-}
-.pn:hover{
-    cursor: pointer;
-    background-color:#FB5E84;
-}
-.inst:hover{
-    cursor: pointer;
-    background-color:#FB5E84;
+   fill:#FB5E84;
 }
